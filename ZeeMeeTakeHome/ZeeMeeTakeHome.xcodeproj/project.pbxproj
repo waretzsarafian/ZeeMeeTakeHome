@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7763964A2A44D5FC008A025B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776396492A44D5FC008A025B /* AppDelegate.swift */; };
+		7763964C2A44D5FC008A025B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763964B2A44D5FC008A025B /* SceneDelegate.swift */; };
+		7763964E2A44D5FC008A025B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763964D2A44D5FC008A025B /* SearchViewController.swift */; };
+		776396532A44D5FF008A025B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776396522A44D5FF008A025B /* Assets.xcassets */; };
+		776396562A44D5FF008A025B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776396542A44D5FF008A025B /* LaunchScreen.storyboard */; };
+		776396612A44D600008A025B /* ZeeMeeTakeHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776396602A44D600008A025B /* ZeeMeeTakeHomeTests.swift */; };
+		7763966B2A44D600008A025B /* ZeeMeeTakeHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763966A2A44D600008A025B /* ZeeMeeTakeHomeUITests.swift */; };
+		7763966D2A44D600008A025B /* ZeeMeeTakeHomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7763966C2A44D600008A025B /* ZeeMeeTakeHomeUITestsLaunchTests.swift */; };
+		77BFE7AE2A45F05E005FE907 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7AD2A45F05E005FE907 /* SearchViewModel.swift */; };
+		77BFE7B12A45FA19005FE907 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7B02A45FA19005FE907 /* Cocktail.swift */; };
+		77BFE7B32A45FC51005FE907 /* CocktailDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7B22A45FC51005FE907 /* CocktailDetail.swift */; };
+		77BFE7B52A45FF2C005FE907 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7B42A45FF2C005FE907 /* NetworkManager.swift */; };
+		77BFE7B72A4600B4005FE907 /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7B62A4600B4005FE907 /* Responses.swift */; };
+		77BFE7BB2A460A0B005FE907 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7BA2A460A0B005FE907 /* DetailViewController.swift */; };
+		77BFE7BD2A4615F4005FE907 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7BC2A4615F4005FE907 /* DetailViewModel.swift */; };
+		77BFE7C02A461B7F005FE907 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7BF2A461B7F005FE907 /* Constants.swift */; };
+		77BFE7C32A46630E005FE907 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7C22A46630E005FE907 /* UIView+Ext.swift */; };
+		77BFE7C82A48539D005FE907 /* CocktailConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7C72A48539C005FE907 /* CocktailConfiguration.swift */; };
+		77BFE7CA2A4853E4005FE907 /* CocktailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7C92A4853E4005FE907 /* CocktailContentView.swift */; };
+		77BFE7CC2A486049005FE907 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFE7CB2A486049005FE907 /* UIImageView+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7763965D2A44D600008A025B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7763963E2A44D5FC008A025B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776396452A44D5FC008A025B;
+			remoteInfo = ZeeMeeTakeHome;
+		};
+		776396672A44D600008A025B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7763963E2A44D5FC008A025B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776396452A44D5FC008A025B;
+			remoteInfo = ZeeMeeTakeHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		776396462A44D5FC008A025B /* ZeeMeeTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeeMeeTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		776396492A44D5FC008A025B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7763964B2A44D5FC008A025B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7763964D2A44D5FC008A025B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		776396522A44D5FF008A025B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		776396552A44D5FF008A025B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		776396572A44D5FF008A025B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7763965C2A44D600008A025B /* ZeeMeeTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeeMeeTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		776396602A44D600008A025B /* ZeeMeeTakeHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeeMeeTakeHomeTests.swift; sourceTree = "<group>"; };
+		776396662A44D600008A025B /* ZeeMeeTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeeMeeTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7763966A2A44D600008A025B /* ZeeMeeTakeHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeeMeeTakeHomeUITests.swift; sourceTree = "<group>"; };
+		7763966C2A44D600008A025B /* ZeeMeeTakeHomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeeMeeTakeHomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77BFE7AD2A45F05E005FE907 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		77BFE7B02A45FA19005FE907 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		77BFE7B22A45FC51005FE907 /* CocktailDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetail.swift; sourceTree = "<group>"; };
+		77BFE7B42A45FF2C005FE907 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		77BFE7B62A4600B4005FE907 /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
+		77BFE7BA2A460A0B005FE907 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		77BFE7BC2A4615F4005FE907 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		77BFE7BF2A461B7F005FE907 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		77BFE7C22A46630E005FE907 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		77BFE7C72A48539C005FE907 /* CocktailConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailConfiguration.swift; sourceTree = "<group>"; };
+		77BFE7C92A4853E4005FE907 /* CocktailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailContentView.swift; sourceTree = "<group>"; };
+		77BFE7CB2A486049005FE907 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		776396432A44D5FC008A025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776396592A44D600008A025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776396632A44D600008A025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7763963D2A44D5FC008A025B = {
+			isa = PBXGroup;
+			children = (
+				776396482A44D5FC008A025B /* ZeeMeeTakeHome */,
+				7763965F2A44D600008A025B /* ZeeMeeTakeHomeTests */,
+				776396692A44D600008A025B /* ZeeMeeTakeHomeUITests */,
+				776396472A44D5FC008A025B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		776396472A44D5FC008A025B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776396462A44D5FC008A025B /* ZeeMeeTakeHome.app */,
+				7763965C2A44D600008A025B /* ZeeMeeTakeHomeTests.xctest */,
+				776396662A44D600008A025B /* ZeeMeeTakeHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776396482A44D5FC008A025B /* ZeeMeeTakeHome */ = {
+			isa = PBXGroup;
+			children = (
+				776396492A44D5FC008A025B /* AppDelegate.swift */,
+				7763964B2A44D5FC008A025B /* SceneDelegate.swift */,
+				77BFE7B42A45FF2C005FE907 /* NetworkManager.swift */,
+				77BFE7AB2A45EFE6005FE907 /* Search */,
+				77BFE7AC2A45F045005FE907 /* Detail */,
+				77BFE7AF2A45F9EF005FE907 /* Models */,
+				77BFE7C12A4662ED005FE907 /* Extensions */,
+				77BFE7BE2A461B6B005FE907 /* Constants */,
+				77BFE7C42A4719FA005FE907 /* Cells */,
+				776396522A44D5FF008A025B /* Assets.xcassets */,
+				776396542A44D5FF008A025B /* LaunchScreen.storyboard */,
+				776396572A44D5FF008A025B /* Info.plist */,
+			);
+			path = ZeeMeeTakeHome;
+			sourceTree = "<group>";
+		};
+		7763965F2A44D600008A025B /* ZeeMeeTakeHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				776396602A44D600008A025B /* ZeeMeeTakeHomeTests.swift */,
+			);
+			path = ZeeMeeTakeHomeTests;
+			sourceTree = "<group>";
+		};
+		776396692A44D600008A025B /* ZeeMeeTakeHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7763966A2A44D600008A025B /* ZeeMeeTakeHomeUITests.swift */,
+				7763966C2A44D600008A025B /* ZeeMeeTakeHomeUITestsLaunchTests.swift */,
+			);
+			path = ZeeMeeTakeHomeUITests;
+			sourceTree = "<group>";
+		};
+		77BFE7AB2A45EFE6005FE907 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7763964D2A44D5FC008A025B /* SearchViewController.swift */,
+				77BFE7AD2A45F05E005FE907 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		77BFE7AC2A45F045005FE907 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				77BFE7BA2A460A0B005FE907 /* DetailViewController.swift */,
+				77BFE7BC2A4615F4005FE907 /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		77BFE7AF2A45F9EF005FE907 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77BFE7B02A45FA19005FE907 /* Cocktail.swift */,
+				77BFE7B22A45FC51005FE907 /* CocktailDetail.swift */,
+				77BFE7B62A4600B4005FE907 /* Responses.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77BFE7BE2A461B6B005FE907 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				77BFE7BF2A461B7F005FE907 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		77BFE7C12A4662ED005FE907 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77BFE7C22A46630E005FE907 /* UIView+Ext.swift */,
+				77BFE7CB2A486049005FE907 /* UIImageView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		77BFE7C42A4719FA005FE907 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				77BFE7C72A48539C005FE907 /* CocktailConfiguration.swift */,
+				77BFE7C92A4853E4005FE907 /* CocktailContentView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		776396452A44D5FC008A025B /* ZeeMeeTakeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776396702A44D600008A025B /* Build configuration list for PBXNativeTarget "ZeeMeeTakeHome" */;
+			buildPhases = (
+				776396422A44D5FC008A025B /* Sources */,
+				776396432A44D5FC008A025B /* Frameworks */,
+				776396442A44D5FC008A025B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeeMeeTakeHome;
+			productName = ZeeMeeTakeHome;
+			productReference = 776396462A44D5FC008A025B /* ZeeMeeTakeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7763965B2A44D600008A025B /* ZeeMeeTakeHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776396732A44D600008A025B /* Build configuration list for PBXNativeTarget "ZeeMeeTakeHomeTests" */;
+			buildPhases = (
+				776396582A44D600008A025B /* Sources */,
+				776396592A44D600008A025B /* Frameworks */,
+				7763965A2A44D600008A025B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7763965E2A44D600008A025B /* PBXTargetDependency */,
+			);
+			name = ZeeMeeTakeHomeTests;
+			productName = ZeeMeeTakeHomeTests;
+			productReference = 7763965C2A44D600008A025B /* ZeeMeeTakeHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		776396652A44D600008A025B /* ZeeMeeTakeHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776396762A44D600008A025B /* Build configuration list for PBXNativeTarget "ZeeMeeTakeHomeUITests" */;
+			buildPhases = (
+				776396622A44D600008A025B /* Sources */,
+				776396632A44D600008A025B /* Frameworks */,
+				776396642A44D600008A025B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776396682A44D600008A025B /* PBXTargetDependency */,
+			);
+			name = ZeeMeeTakeHomeUITests;
+			productName = ZeeMeeTakeHomeUITests;
+			productReference = 776396662A44D600008A025B /* ZeeMeeTakeHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7763963E2A44D5FC008A025B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					776396452A44D5FC008A025B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7763965B2A44D600008A025B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 776396452A44D5FC008A025B;
+					};
+					776396652A44D600008A025B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 776396452A44D5FC008A025B;
+					};
+				};
+			};
+			buildConfigurationList = 776396412A44D5FC008A025B /* Build configuration list for PBXProject "ZeeMeeTakeHome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7763963D2A44D5FC008A025B;
+			productRefGroup = 776396472A44D5FC008A025B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776396452A44D5FC008A025B /* ZeeMeeTakeHome */,
+				7763965B2A44D600008A025B /* ZeeMeeTakeHomeTests */,
+				776396652A44D600008A025B /* ZeeMeeTakeHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776396442A44D5FC008A025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776396562A44D5FF008A025B /* LaunchScreen.storyboard in Resources */,
+				776396532A44D5FF008A025B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7763965A2A44D600008A025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776396642A44D600008A025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776396422A44D5FC008A025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BFE7BB2A460A0B005FE907 /* DetailViewController.swift in Sources */,
+				77BFE7C02A461B7F005FE907 /* Constants.swift in Sources */,
+				7763964E2A44D5FC008A025B /* SearchViewController.swift in Sources */,
+				7763964A2A44D5FC008A025B /* AppDelegate.swift in Sources */,
+				77BFE7CA2A4853E4005FE907 /* CocktailContentView.swift in Sources */,
+				77BFE7BD2A4615F4005FE907 /* DetailViewModel.swift in Sources */,
+				77BFE7CC2A486049005FE907 /* UIImageView+Ext.swift in Sources */,
+				77BFE7B32A45FC51005FE907 /* CocktailDetail.swift in Sources */,
+				77BFE7B52A45FF2C005FE907 /* NetworkManager.swift in Sources */,
+				77BFE7B72A4600B4005FE907 /* Responses.swift in Sources */,
+				77BFE7C32A46630E005FE907 /* UIView+Ext.swift in Sources */,
+				77BFE7AE2A45F05E005FE907 /* SearchViewModel.swift in Sources */,
+				77BFE7B12A45FA19005FE907 /* Cocktail.swift in Sources */,
+				7763964C2A44D5FC008A025B /* SceneDelegate.swift in Sources */,
+				77BFE7C82A48539D005FE907 /* CocktailConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776396582A44D600008A025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776396612A44D600008A025B /* ZeeMeeTakeHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776396622A44D600008A025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7763966B2A44D600008A025B /* ZeeMeeTakeHomeUITests.swift in Sources */,
+				7763966D2A44D600008A025B /* ZeeMeeTakeHomeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7763965E2A44D600008A025B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776396452A44D5FC008A025B /* ZeeMeeTakeHome */;
+			targetProxy = 7763965D2A44D600008A025B /* PBXContainerItemProxy */;
+		};
+		776396682A44D600008A025B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776396452A44D5FC008A025B /* ZeeMeeTakeHome */;
+			targetProxy = 776396672A44D600008A025B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		776396542A44D5FF008A025B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776396552A44D5FF008A025B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7763966E2A44D600008A025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7763966F2A44D600008A025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		776396712A44D600008A025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W63MQ7PDSH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeeMeeTakeHome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.ZeeMeeTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		776396722A44D600008A025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W63MQ7PDSH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeeMeeTakeHome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.ZeeMeeTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		776396742A44D600008A025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W63MQ7PDSH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.ZeeMeeTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeeMeeTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeeMeeTakeHome";
+			};
+			name = Debug;
+		};
+		776396752A44D600008A025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W63MQ7PDSH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.ZeeMeeTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeeMeeTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeeMeeTakeHome";
+			};
+			name = Release;
+		};
+		776396772A44D600008A025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W63MQ7PDSH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.ZeeMeeTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZeeMeeTakeHome;
+			};
+			name = Debug;
+		};
+		776396782A44D600008A025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W63MQ7PDSH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.ZeeMeeTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZeeMeeTakeHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		776396412A44D5FC008A025B /* Build configuration list for PBXProject "ZeeMeeTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7763966E2A44D600008A025B /* Debug */,
+				7763966F2A44D600008A025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776396702A44D600008A025B /* Build configuration list for PBXNativeTarget "ZeeMeeTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776396712A44D600008A025B /* Debug */,
+				776396722A44D600008A025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776396732A44D600008A025B /* Build configuration list for PBXNativeTarget "ZeeMeeTakeHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776396742A44D600008A025B /* Debug */,
+				776396752A44D600008A025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776396762A44D600008A025B /* Build configuration list for PBXNativeTarget "ZeeMeeTakeHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776396772A44D600008A025B /* Debug */,
+				776396782A44D600008A025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7763963E2A44D5FC008A025B /* Project object */;
+}
